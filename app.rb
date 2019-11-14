@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
 
   get '/hometown' do
-    body "My name is "
+    body "My hometown is "
   end
 
 end
